@@ -4,7 +4,7 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
     
 
     return (
-        <div className={"topbar " + (menuOpen && "active")  }>
+        <div className={"topbar " + (menuOpen && "active") }>
             <div className="wrapper">
 
                 <div className="left">
