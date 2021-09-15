@@ -3,14 +3,15 @@
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: white;
+    background-color: #eee;
     color: $mainColor;
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: all 1s ease;
 
     .wrapper {
-        padding: 10px 30px;
+        padding: 10px 45px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -26,5 +27,48 @@
             }
         }
 
+        .right {
+            .hamburger {
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span {
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor;
+                    transform-origin: left;
+                    transition: all 2s ease;
+                }
+            }
+        }
+
+    }
+
+    &.active {
+        background-color: $mainColor;
+        color: #eee;
+        transition: all 1s ease;
+
+        .hamburger {
+            span {
+                &:first-child {
+                    background-color: #eee;
+                    transform: rotate(45deg)
+                }
+
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+
+                &:last-child {
+                    background-color: #eee;
+                    transform: rotate(-45deg)
+                }
+
+            }
+        }
     }
 }
