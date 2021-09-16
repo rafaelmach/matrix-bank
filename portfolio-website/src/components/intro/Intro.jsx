@@ -1,9 +1,21 @@
 import "./intro.scss"
 import webDeveloper from "../../assets/webDev.jpg"
-// import downArrow from "../../assets/down.png"
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { init } from 'ityped'
+import { useEffect, useRef } from "react";
 
 const Intro = () => {
+
+    const textRef = useRef()
+
+   useEffect(() => {
+    init(textRef.current, { 
+        showCursor: true,
+        backDelay:1700,
+        backSpeed:60,
+        strings: ["Front end"] })
+   }, [])
+
     return (
         <div className="intro" id="intro">
             <div className="left">
@@ -15,10 +27,9 @@ const Intro = () => {
                 <div className="wrapper">
                     <h2>Olá! Eu sou</h2>
                     <h1>Rafael Machado</h1>
-                    <h3>Web Developer <span></span></h3>
+                    <h3>Desenvolvedor Web <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
-                {/* <img src={downArrow} alt="Seta para Baixo" />  */}
                 <ExpandMoreIcon className="icon" />
                 </a>
 
