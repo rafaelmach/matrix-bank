@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import PortfolioList from "../portfolioList/PortfolioList"
 import "./portfolio.scss"
 import { featuredPortfolio, webPortfolio, mobilePortfolio,
-     designPortfolio, contentPortfolio } from "../../constants/data"
+     designPortfolio, contentPortfolio } from "../../constants/dataKnowledge"
 
 const Portfolio = () => {
     const [selected, setSelected] = useState("featured")
