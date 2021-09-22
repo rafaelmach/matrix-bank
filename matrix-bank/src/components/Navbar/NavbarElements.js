@@ -82,6 +82,7 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    font-weight: 500;
 
     &.active {
         border-bottom: 3px solid #01bf71;
@@ -105,6 +106,8 @@ export const NavBtnLink = styled(LinkR)`
     padding: 10px 22px;
     color: #010606;
     font-size: 16px;
+    font-weight: 600;
+    /* font-weight: bold; */
     outline: none;
     border: none;
     cursor: pointer;
