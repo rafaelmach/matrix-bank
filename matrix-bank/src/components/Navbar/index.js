@@ -2,11 +2,11 @@ import React from 'react'
 import { FaBars } from "react-icons/fa"
 import {
     Nav, NavbarContainer, NavLogo, 
-    MobileIcon, NavMenu, NavItem, NavLinks
+    MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink
 } from './NavbarElements'
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
@@ -16,7 +16,7 @@ const Navbar = () => {
                         Matrix Bank
                     </NavLogo>
 
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                        <FaBars /> 
                     </MobileIcon>
                     <NavMenu>
@@ -33,6 +33,9 @@ const Navbar = () => {
                             <NavLinks to="signup">Sign Up</NavLinks>
                         </NavItem>
                     </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to="/signin">Sign In</NavBtnLink>   
+                    </NavBtn>
                 </NavbarContainer>
             </Nav>
         </>
