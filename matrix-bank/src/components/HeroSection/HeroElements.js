@@ -8,16 +8,24 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 100vh;
     position: relative;
     z-index: 1;
     
-    /* :before {
+    :before {
+        /* Para escurecer o vídeo ... parece que não funcionou! */
         content: "";
         position: absolute;
-
-    } */
-    /* CONTINUAR DAQUI */
+        top:0;
+        left: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%,
+        rgba(0,0,0,0.6) 100%),
+        linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+        z-index: 2;
+    }
+   
 `
 
 export const HeroBg = styled.div`
@@ -47,7 +55,7 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 `
 export const HeroH1 = styled.h1`
     color: #fff;

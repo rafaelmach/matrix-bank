@@ -5,10 +5,10 @@ HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
 import { Button } from "../ButtonElement"
 
 const HeroSection = () => {
-    const [hover, setHover] = useState(false)
+    const [hoverIcon, setHoverIcon] = useState(false)
 
     const onHover = () => {
-        setHover(!hover)
+        setHoverIcon(!hoverIcon)
     }
 
     return (
@@ -22,9 +22,9 @@ const HeroSection = () => {
               <HeroBtnWrapper>
                   <Button to="signup" onMouseEnter={onHover} 
                   onMouseLeave={onHover}
-                  primary="true"
-                  dark="true"
-                  >Abra sua conta {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                  primaryColor="true"
+                  darkText="true"
+                  >Abra sua conta {hoverIcon ? <ArrowForward /> : <ArrowRight />}</Button>
               </HeroBtnWrapper>
             </HeroContent>
             
