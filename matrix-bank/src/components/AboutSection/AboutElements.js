@@ -11,11 +11,12 @@ export const AboutContainer = styled.div`
     width: 100%;
     height: calc(100vh - 80px);
     max-width: 1100px;
+    margin: 0;
     margin-right: auto;
     margin-left: auto;
     justify-content: center; 
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1000px) {
         background-color: #010606;
         background: #010606;
         display: flex;
@@ -23,6 +24,7 @@ export const AboutContainer = styled.div`
         width: 80%;
         height: calc(100vh - 80px);
         /* max-width: 300px; */
+        margin: 0;
         margin-right: auto;
         margin-left: auto;
         justify-content: center; 
@@ -36,6 +38,7 @@ export const AboutContainer = styled.div`
         width: 80%;
         height: calc(100vh - 80px);
         /* max-width: 300px; */
+        margin: 0;
         margin-right: auto;
         margin-left: auto;
         justify-content: center; 
@@ -46,7 +49,7 @@ export const AboutContainer = styled.div`
 export const LeftCol = styled.div`
     flex: 0.5;
     
-    background-color: red;
+   
     
     /* padding: 0 30px; */
     @media screen and (max-width: 480px) {
@@ -59,8 +62,9 @@ export const LeftCol = styled.div`
 export const RightCol = styled.div`
     flex: 0.5;
     /* width: 100%; */
-    background-color: blue;
+    /* background-color: blue; */
     /* padding: 0 30px; */
+
 
     @media screen and (max-width: 480px) {
         margin-bottom: 10px;
@@ -76,8 +80,24 @@ export const ImgWrapper = styled.div`
     align-items: center;
     justify-content: center;
 `
-export const Image = styled.div`
+export const Image = styled.img`
     width: 100%;
+
+    @media screen and (max-width: 1000px) {
+        width: 80%;
+        
+    }
+
+
+    @media screen and (max-width: 768px) {
+        width: 80%;
+        
+    }
+
+    @media screen and (max-width: 480px) {
+        width: 90%;
+        margin-bottom: 0;
+    }
 `
 
 export const TextWrapper = styled.div`
@@ -89,7 +109,7 @@ export const TextWrapper = styled.div`
     margin-left: 30px;
     justify-content: center;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
         margin-left: 0;
         margin-top: 15px;
     }
@@ -119,7 +139,14 @@ export const Title = styled.h1`
     @media screen and (max-width: 480px) {
         font-size: 30px;
     }
+
+
+    // Iphone 5 - Telas bem pequenas !!!
+    @media screen and (max-width: 320px) {
+        font-size: 25px;
+    }
 `
+
 
 export const Subtitle = styled.p`
     max-width: 440px;

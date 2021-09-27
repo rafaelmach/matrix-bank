@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button } from 'react-scroll'
 import { AboutContainer, LeftCol, RightCol, TextWrapper, TopLine, Title, Subtitle, BtnWrap, ImgWrapper, Image, GeneralContainer } from './AboutElements'
+import { Button } from "../ButtonElement"
+import aboutImage from "../../images/svg-01.svg"
 
 
 const AboutSection = () => {
@@ -13,14 +14,16 @@ const AboutSection = () => {
                        <Title>Unlimited Transactions with zero fees</Title>
                        <Subtitle>Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees</Subtitle>
                        <BtnWrap>
-                            <Button to="home" />
+                            <Button to="home"
+                            primaryColor="true"
+                            darkText="true">Get Started </Button>
                         </BtnWrap> 
                     </TextWrapper>
                    </LeftCol>
 
                    <RightCol>
                     <ImgWrapper>
-                      <Image />
+                      <Image src={aboutImage} />
                     </ImgWrapper>
                    </RightCol>
           </AboutContainer>  
