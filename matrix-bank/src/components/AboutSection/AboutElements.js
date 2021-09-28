@@ -14,8 +14,8 @@ export const AboutContainer = styled.div`
     height: calc(100vh - 80px);
 
     /* DESKTOP - ALTURA AJUSTA PELO TAMANHO DA TELA DO USUÁRIO = vh
-    TABLET - ALTURA FIXA = 680 px
-    CELULARES - ALTURA FIXA = 680 px
+    TABLET - ALTURA FIXA = 720 px
+    CELULARES - ALTURA FIXA = 720 px
      */
 
     /* height: 680px; */
@@ -30,7 +30,7 @@ export const AboutContainer = styled.div`
         display: flex;
         flex-direction: column;
         width: 80%;
-        height: 680px;
+        height: 720px;
         /* height: 100%; */
         /* height: calc(100vh - 80px); */
         
@@ -38,6 +38,7 @@ export const AboutContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
+        /* height: 680px; */
         /* background: lightsteelblue; */
         /* height: calc(100vh - 80px); */
         
@@ -91,7 +92,7 @@ export const Image = styled.img`
 
     @media screen and (max-width: 768px) {
         margin-top: 2em;
-        width: 60%
+        width: 70%
         
     }
 
