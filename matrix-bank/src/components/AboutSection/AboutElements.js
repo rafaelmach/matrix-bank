@@ -25,7 +25,7 @@ export const AboutContainer = styled.div`
     margin-left: auto;
     justify-content: center; 
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         /* background: grey; */
         display: flex;
         flex-direction: column;
@@ -86,19 +86,19 @@ export const ImgWrapper = styled.div`
 `
 export const Image = styled.img`
     width: 80%;
-    max-width: 80%; 
+    /* max-width: 100%;  */
     margin-top: 1.8em;
     
 
     @media screen and (max-width: 768px) {
         margin-top: 2em;
-        width: 70%
+        width: 80%
         
     }
 
     @media screen and (max-width: 480px) {
         margin-top: 1em;
-        width: 80%
+        width: 100%
     }
 `
 
