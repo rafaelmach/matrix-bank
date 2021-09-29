@@ -1,7 +1,7 @@
 import React from 'react'
 import { AboutContainer, LeftCol, RightCol, TextWrapper, TopLine, Title, Subtitle, BtnWrap, ImgWrapper, Image, GeneralContainer } from './AboutElements'
 import { Button } from "../ButtonElement"
-import aboutImage from "../../images/svg-01.svg"
+import aboutImage from "../../images/svg-13.svg"
 
 
 const AboutSection = () => {
@@ -10,13 +10,13 @@ const AboutSection = () => {
           <AboutContainer>
                    <LeftCol>
                     <TextWrapper>
-                       <TopLine> PREMIUM BANK </TopLine>
-                       <Title>Unlimited Transactions with zero fees</Title>
-                       <Subtitle>Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees</Subtitle>
+                       <TopLine> BANCO PREMIUM </TopLine>
+                       <Title>Transações ilimitadas e tarifa zero</Title>
+                       <Subtitle>Tenha acesso ao nosso aplicativo exclusivo que permite o envio de transações ilimitadas sem cobrança de taxas</Subtitle>
                        <BtnWrap>
                             <Button to="home"
                             primaryColor="true"
-                            darkText="true">Get Started </Button>
+                            darkText="true"> Acessar </Button>
                         </BtnWrap> 
                     </TextWrapper>
                    </LeftCol>
