@@ -1,10 +1,11 @@
 import { AboutContainer, LeftCol, RightCol, TextWrapper, TopLine, 
-Title, Subtitle, BtnWrap, ImgWrapper, Image, GeneralContainer } from './AboutElements'
+Title, Subtitle, BtnWrap, ImgWrapper, Image, GeneralContainer } from './DiscoverElements'
 import { Button } from "../ButtonElement"
 import aboutImage from "../../images/svg-13.svg"
 import { aboutSectionText } from '../../assets/Database'
 
-const AboutSection = () => {
+
+const DiscoverSection = () => {
     return (
         <GeneralContainer>
           <AboutContainer>
@@ -15,8 +16,8 @@ const AboutSection = () => {
                        <Subtitle> {aboutSectionText.subtitle} </Subtitle>
                        <BtnWrap>
                             <Button to="home"
-                            primaryColor={true}
-                            darkText={true}> {aboutSectionText.buttonText} </Button>
+                            primaryColor={false}
+                            darkText={false}> {aboutSectionText.buttonText} </Button>
                         </BtnWrap> 
                     </TextWrapper>
                    </LeftCol>
@@ -31,4 +32,4 @@ const AboutSection = () => {
     )
 }
 
-export default AboutSection
+export default DiscoverSection
