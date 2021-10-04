@@ -5,7 +5,7 @@ export const GeneralContainer = styled.div`
     
 `
 
-export const AboutContainer = styled.div`
+export const MainContainer = styled.div`
     
     color: #010606;
     background: #eee;
@@ -19,40 +19,39 @@ export const AboutContainer = styled.div`
      */
 
     max-width: 1100px;
-    margin: 0;
     margin-right: auto;
     margin-left: auto;
     justify-content: center; 
 
     @media screen and (max-width: 900px) {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 80%;
-        height: 720px;
+        height: 800px;
+        
     }
 
 `
 
 export const LeftCol = styled.div`
     flex: 0.5;
-    
-    @media screen and (max-width: 480px) {
-        margin-bottom: 10px;
-        
+    margin-left: 2em;
+
+    @media screen and (max-width: 900px) {
+        margin-left: 0; 
     }
+
 `
 
 export const RightCol = styled.div`
     flex: 0.5;
+    
 
-    @media screen and (max-width: 768px) {
-        margin-bottom: 30px;
+    @media screen and (max-width: 900px) {
+        margin-top: 4em;
+        
     }
 
-
-    @media screen and (max-width: 480px) {
-        margin-bottom: 15px;
-    }
 `
 
 export const ImgWrapper = styled.div`
@@ -68,15 +67,18 @@ export const Image = styled.img`
     width: 80%;
     margin-top: 1.8em;
     
-    @media screen and (max-width: 768px) {
-        margin-top: 2em;
-        width: 80%
+    @media screen and (max-width: 900px) {
+        margin-top: 0;
+        margin-bottom: 3em;
+        width: 80%;
+        
     }
 
     @media screen and (max-width: 480px) {
         margin-top: 1em;
-        width: 100%
+        width: 90%;
     }
+
 `
 
 export const TextWrapper = styled.div`
@@ -90,7 +92,7 @@ export const TextWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         margin-left: 0;
-        margin-top: 25px;
+        
     }
     
 `
@@ -113,7 +115,7 @@ export const Title = styled.h1`
     color: #010606;
     text-align: left;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         font-size: 2rem;
     }
     
@@ -139,7 +141,7 @@ export const Subtitle = styled.p`
 
     @media screen and (max-width: 480px) {
         font-size: 1rem;
-        margin-bottom: 35px;
+        margin-bottom: 2.3em;
 
     }
 `
@@ -148,14 +150,5 @@ export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
 
-    @media screen and (max-width: 768px) {
-        margin-bottom: 15px;
-
-    }
-
-    @media screen and (max-width: 480px) {
-        margin-bottom: 10px;
-
-    }
 `
 
