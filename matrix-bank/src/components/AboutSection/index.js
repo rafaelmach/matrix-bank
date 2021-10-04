@@ -1,8 +1,8 @@
-import React from 'react'
-import { AboutContainer, LeftCol, RightCol, TextWrapper, TopLine, Title, Subtitle, BtnWrap, ImgWrapper, Image, GeneralContainer } from './AboutElements'
+import { AboutContainer, LeftCol, RightCol, TextWrapper, TopLine, 
+Title, Subtitle, BtnWrap, ImgWrapper, Image, GeneralContainer } from './AboutElements'
 import { Button } from "../ButtonElement"
 import aboutImage from "../../images/svg-13.svg"
-
+import { aboutSectionText } from '../../assets/Database'
 
 const AboutSection = () => {
     return (
@@ -10,13 +10,13 @@ const AboutSection = () => {
           <AboutContainer>
                    <LeftCol>
                     <TextWrapper>
-                       <TopLine> BANCO PREMIUM </TopLine>
-                       <Title>Transações ilimitadas e tarifa zero</Title>
-                       <Subtitle>Tenha acesso ao nosso aplicativo exclusivo que permite o envio de transações ilimitadas sem cobrança de taxas</Subtitle>
+                       <TopLine> {aboutSectionText.topline} </TopLine>
+                       <Title> {aboutSectionText.title} </Title>
+                       <Subtitle> {aboutSectionText.subtitle} </Subtitle>
                        <BtnWrap>
                             <Button to="home"
-                            primaryColor="true"
-                            darkText="true"> Acessar </Button>
+                            primaryColor={true}
+                            darkText={true}> {aboutSectionText.buttonText} </Button>
                         </BtnWrap> 
                     </TextWrapper>
                    </LeftCol>
