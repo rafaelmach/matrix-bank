@@ -5,3 +5,10 @@ export const aboutSectionText = {
     buttonText: "Acessar"
 }
 
+export const discoverSectionText = {
+    topline: "ACESSO ILIMITADO",
+    title: "Acesse sua conta de qualquer lugar no mundo",
+    subtitle: "Tenha controle total sobre a sua conta, não importa onde você esteja. Tudo que você precisa é uma conexão com a internet e um smartphone ou computador.",
+    buttonText: "Saiba mais"
+}
+

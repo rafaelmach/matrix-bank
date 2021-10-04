@@ -2,7 +2,7 @@ import { AboutContainer, LeftCol, RightCol, TextWrapper, TopLine,
 Title, Subtitle, BtnWrap, ImgWrapper, Image, GeneralContainer } from './DiscoverElements'
 import { Button } from "../ButtonElement"
 import aboutImage from "../../images/svg-13.svg"
-import { aboutSectionText } from '../../assets/Database'
+import { discoverSectionText } from '../../assets/Database'
 
 
 const DiscoverSection = () => {
@@ -11,13 +11,13 @@ const DiscoverSection = () => {
           <AboutContainer>
                    <LeftCol>
                     <TextWrapper>
-                       <TopLine> {aboutSectionText.topline} </TopLine>
-                       <Title> {aboutSectionText.title} </Title>
-                       <Subtitle> {aboutSectionText.subtitle} </Subtitle>
+                       <TopLine> {discoverSectionText.topline} </TopLine>
+                       <Title> {discoverSectionText.title} </Title>
+                       <Subtitle> {discoverSectionText.subtitle} </Subtitle>
                        <BtnWrap>
                             <Button to="home"
                             primaryColor={false}
-                            darkText={false}> {aboutSectionText.buttonText} </Button>
+                            darkText={false}> {discoverSectionText.buttonText} </Button>
                         </BtnWrap> 
                     </TextWrapper>
                    </LeftCol>
