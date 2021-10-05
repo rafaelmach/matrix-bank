@@ -4,6 +4,7 @@ import AboutSection from '../components/AboutSection'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import DiscoverSection from '../components/DiscoverSection'
+import ServicesSection from '../components/ServicesSection/ServicesSection'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -19,6 +20,7 @@ const Home = () => {
          <HeroSection />
          <AboutSection />
          <DiscoverSection />
+         <ServicesSection />
         </>
     )
 }
