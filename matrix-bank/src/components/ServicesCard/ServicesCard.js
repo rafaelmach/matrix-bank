@@ -1,17 +1,16 @@
-import cardImage from "../../images/svg-12.svg"
 import { CardContainer, Image, Title, Description } from "./CardElements"
 
-const ServicesCard = () => {
+const ServicesCard = (props) => {
     return (
         // ServicesCard - abaixo
         <CardContainer> 
             
             {/* ServicesIcon = IMAGE */}
-                <Image src={cardImage}/> 
+                <Image src={props.image}/> 
                 {/* ServicesH2 = Title */}
-                <Title> Cartão de Crédito </Title>
+                <Title> {props.title} </Title>
                 {/* ServicesP = Description */}
-                <Description> Peça já seu Verdinho com anuidade zero e 5% de cash back.</Description>
+                <Description> {props.description}</Description>
             
         </CardContainer>
     )
