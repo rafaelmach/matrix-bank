@@ -136,7 +136,7 @@ export const Title = styled.h1`
     font-size: 3rem;
     line-height: 1.1;
     font-weight: 600;
-    color: #f7f8fa;
+    color: #f9f9f9;
     text-align: left;
 
     @media screen and (max-width: 768px) {

@@ -1,3 +1,7 @@
+import imageCard1 from "../images/svg-17.svg"
+import imageCard2 from "../images/svg-12.svg"
+import imageCard3 from "../images/svg-7.svg"
+
 export const aboutSectionText = {
     topline: "BANCO PREMIUM",
     title: "Transações ilimitadas e tarifa zero",
@@ -12,3 +16,24 @@ export const discoverSectionText = {
     buttonText: "Saiba mais"
 }
 
+export const dataServiceCards = [
+    {
+      id: "1",
+      image: imageCard1,
+      title: "Investimentos",
+      desc: "As melhores opções de investimentos na palma da sua mão.",
+    },
+    {
+        id: "2",
+        image: imageCard2,
+        title: "Cartão de Crédito",
+        desc: "Peça já seu Verdinho com anuidade zero e 5% de cash back.",
+    },
+    {
+        id: "3",
+      image: imageCard3,
+      title: "Redução de Despesas",
+      desc: "Nós te ajudamos a reduzir suas despesas e aumentar suas receitas.",
+    }
+
+]
