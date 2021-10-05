@@ -1,16 +1,16 @@
 import { CardContainer, Image, Title, Description } from "./CardElements"
 
-const ServicesCard = (props) => {
+const ServicesCard = ({cardInfo}) => {
     return (
         // ServicesCard - abaixo
         <CardContainer> 
             
             {/* ServicesIcon = IMAGE */}
-                <Image src={props.image}/> 
+                <Image src={cardInfo.image}/> 
                 {/* ServicesH2 = Title */}
-                <Title> {props.title} </Title>
+                <Title> {cardInfo.title} </Title>
                 {/* ServicesP = Description */}
-                <Description> {props.description}</Description>
+                <Description> {cardInfo.desc}</Description>
             
         </CardContainer>
     )

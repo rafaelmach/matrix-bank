@@ -7,11 +7,8 @@ const ServicesSection = () => {
     const cards = dataServiceCards.map((item) => {
         return (
           <ServicesCard
+            cardInfo={item}
             key={item.id}
-            image={item.image}
-            title={item.title}
-            description={item.desc}
-            
             // onClick={() => onClickCard(recipe.recipe_id)}
           />
         )
