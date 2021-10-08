@@ -3,13 +3,24 @@ import { ServicesContainer, ServicesH1, ServicesWrapper } from "./ServicesSecEle
 import { dataServiceCards } from "../../assets/Database"
 
 const ServicesSection = () => {
+
+  // Quando for implementar o MODAL, basta deletar o bloco ELSE e colocar a chamada 
+  // da função do MODAL no lugar do console.log, dentro do IF
+
+    const onClickCard = (id) => {
+      if(id === "2"){
+        console.log("Cliquei no Card de Cartão de Crédito!")
+      } else {
+        console.log("Cliquei em qualquer um dos outros cards")
+      }
+    }
     
     const cards = dataServiceCards.map((item) => {
         return (
           <ServicesCard
             cardInfo={item}
             key={item.id}
-            // onClick={() => onClickCard(recipe.recipe_id)}
+            onClick={() => onClickCard(item.id)}
           />
         )
       })
@@ -18,10 +29,9 @@ const ServicesSection = () => {
         <ServicesContainer>
             <ServicesH1>Nossos Serviços</ServicesH1>
             <ServicesWrapper>
-                {/* <ServicesCard/>
-                <ServicesCard/>
-                <ServicesCard/> */}
+
                 {cards}
+
             </ServicesWrapper>
         </ServicesContainer>
     )
