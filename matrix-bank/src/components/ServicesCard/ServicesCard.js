@@ -1,9 +1,9 @@
 import { CardContainer, Image, Title, Description } from "./CardElements"
 
-const ServicesCard = ({cardInfo}) => {
+const ServicesCard = ({cardInfo, onClick}) => {
     return (
         // ServicesCard - abaixo
-        <CardContainer> 
+        <CardContainer onClick={onClick}> 
             
             {/* ServicesIcon = IMAGE */}
                 <Image src={cardInfo.image}/> 
