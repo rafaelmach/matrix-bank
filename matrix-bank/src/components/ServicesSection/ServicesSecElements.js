@@ -7,6 +7,8 @@ export const ServicesContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #010606;
+    position: relative;
+    z-index: 1;
 
     @media screen and (max-width: 1000px) {
         height: 1100px;
