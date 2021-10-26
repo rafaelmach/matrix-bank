@@ -1,14 +1,14 @@
 import styled from "styled-components"
 
 export const GeneralContainer = styled.div`
-    background-color: #eee;
+    background-color: #fcfcfc;
     
 `
 
 export const MainContainer = styled.div`
     
     color: #010606;
-    background: #eee;
+    background: #fcfcfc;
     display: flex;
     width: 100%;
     height: calc(100vh - 80px);

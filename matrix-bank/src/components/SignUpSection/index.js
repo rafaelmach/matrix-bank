@@ -14,7 +14,7 @@ import {
 import { Button } from "../ButtonElement";
 import signUpImage from "../../images/svg-22.svg";
 import { signUpSectionText } from "../../assets/Database";
-// Alterar o TEXT !!!
+
 
 const SignUpSection = () => {
   return (
