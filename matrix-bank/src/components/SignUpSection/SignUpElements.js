@@ -25,7 +25,7 @@ export const MainContainer = styled.div`
 
     @media screen and (max-width: 900px) {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 80%;
         height: 800px;
         
@@ -39,6 +39,7 @@ export const LeftCol = styled.div`
 
     @media screen and (max-width: 900px) {
         margin-left: 0; 
+        margin-top: 5em;
     }
 
 `
@@ -48,7 +49,7 @@ export const RightCol = styled.div`
     
 
     @media screen and (max-width: 900px) {
-        margin-top: 4em;
+        
         
     }
 
@@ -75,7 +76,7 @@ export const Image = styled.img`
     }
 
     @media screen and (max-width: 480px) {
-        margin-top: 1em;
+        margin-bottom: 5em;
         width: 90%;
     }
 
@@ -109,7 +110,7 @@ export const TopLine = styled.p`
 
 export const Title = styled.h1`
     margin-bottom: 24px;
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: 1.1;
     font-weight: 600;
     color: #010606;
@@ -117,6 +118,7 @@ export const Title = styled.h1`
 
     @media screen and (max-width: 900px) {
         font-size: 2rem;
+        
     }
     
 

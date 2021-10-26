@@ -16,6 +16,13 @@ export const discoverSectionText = {
     buttonText: "Saiba mais"
 }
 
+export const signUpSectionText = {
+    topline: "VENHA PARA A MATRIX",
+    title: "Criar uma conta é extremamente fácil",
+    subtitle: "Receba, movimente e guarde seu dinheiro de um jeito simples. Abra sua conta em menos de 10 minutos. ",
+    buttonText: "Abrir conta"
+}
+
 export const dataServiceCards = [
     {
       id: "1",

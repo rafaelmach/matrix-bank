@@ -29,7 +29,7 @@ export const ModalWrapper = styled.div`
     justify-content: center;
     padding: 50px;
     z-index: 1000;
-    border-radius: 10px;
+    border-radius: 4px;
     transition: all 0.1s ease-in-out;
 
     @media screen and (max-width: 1000px) {
@@ -56,7 +56,7 @@ export const ModalWrapper = styled.div`
 export const ModalImg = styled.img`
     width: 95%;
     height: 80%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 4px;
     background: #000;
 
     @media screen and (max-width: 1000px) {
