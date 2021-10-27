@@ -5,6 +5,7 @@ import {
 import { Button } from "../ButtonElement"
 import aboutImage from "../../images/svg-13.svg"
 import { aboutSectionText } from '../../assets/Database'
+import { smoothScrollSet } from '../../constants/smoothScrollSet'
 
 const AboutSection = () => {
   return (
@@ -20,11 +21,7 @@ const AboutSection = () => {
               <Button to="home"
                 primaryColor={true}
                 darkText={true}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
+                {... smoothScrollSet}
                 > {aboutSectionText.buttonText}
                 
                  </Button>

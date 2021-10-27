@@ -1,40 +1,47 @@
 import React from 'react'
 import { FaBars } from "react-icons/fa"
+import { smoothScrollSet } from '../../constants/smoothScrollSet'
 import {
-    Nav, NavbarContainer, NavLogo, 
+    Nav, NavbarContainer, NavLogo,
     MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink
 } from './NavbarElements'
 
 
 const Navbar = ({ toggle }) => {
+
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    
-                    <NavLogo to="/">
+
+                    <NavLogo to="home"
+                        {... smoothScrollSet}>
                         Matrix Bank
                     </NavLogo>
 
                     <MobileIcon onClick={toggle}>
-                       <FaBars /> 
+                        <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about">About</NavLinks>
-                        </NavItem> 
-                        <NavItem>
-                            <NavLinks to="discover">Discover</NavLinks>
+                            <NavLinks to="about"
+                            {... smoothScrollSet}> About </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="services">Services</NavLinks>
+                            <NavLinks to="discover"
+                            {... smoothScrollSet}> Discover </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup">Sign Up</NavLinks>
+                            <NavLinks to="services"
+                            {... smoothScrollSet}> Services </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="signup"
+                            {... smoothScrollSet}> Sign Up </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>   
+                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

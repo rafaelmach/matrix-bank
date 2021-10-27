@@ -14,6 +14,7 @@ import {
 import { Button } from "../ButtonElement";
 import discoverImage from "../../images/svg-2.svg";
 import { discoverSectionText } from "../../assets/Database";
+import { smoothScrollSet } from "../../constants/smoothScrollSet";
 
 const DiscoverSection = () => {
   return (
@@ -32,7 +33,8 @@ const DiscoverSection = () => {
             <Title> {discoverSectionText.title} </Title>
             <Subtitle> {discoverSectionText.subtitle} </Subtitle>
             <BtnWrap>
-              <Button to="home" primaryColor={false} darkText={false}>
+              <Button to="home" primaryColor={false} darkText={false}
+              {... smoothScrollSet}>
                 {discoverSectionText.buttonText}
               </Button>
             </BtnWrap>

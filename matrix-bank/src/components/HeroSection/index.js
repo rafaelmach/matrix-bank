@@ -3,6 +3,7 @@ import Video from "../../videos/video.mp4"
 import { HeroContainer, HeroBg, VideoBg, HeroContent,
 HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
 import { Button } from "../ButtonElement"
+import { smoothScrollSet } from '../../constants/smoothScrollSet'
 
 const HeroSection = () => {
     const [hoverIcon, setHoverIcon] = useState(false)
@@ -12,7 +13,7 @@ const HeroSection = () => {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer id="home">
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             </HeroBg>
@@ -24,6 +25,7 @@ const HeroSection = () => {
                   onMouseLeave={onHover}
                   primaryColor="true"
                   darkText="true"
+                  {... smoothScrollSet}
                   >Abra sua conta {hoverIcon ? <ArrowForward /> : <ArrowRight />}</Button>
               </HeroBtnWrapper>
             </HeroContent>
