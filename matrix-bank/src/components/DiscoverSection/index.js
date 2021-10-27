@@ -17,7 +17,7 @@ import { discoverSectionText } from "../../assets/Database";
 
 const DiscoverSection = () => {
   return (
-    <GeneralContainer>
+    <GeneralContainer id="discover">
       <MainContainer>
 
         <LeftCol>

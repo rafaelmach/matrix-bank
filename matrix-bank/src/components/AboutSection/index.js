@@ -8,7 +8,7 @@ import { aboutSectionText } from '../../assets/Database'
 
 const AboutSection = () => {
   return (
-    <GeneralContainer>
+    <GeneralContainer id="about">
       <AboutContainer>
         
         <LeftCol>
@@ -19,7 +19,15 @@ const AboutSection = () => {
             <BtnWrap>
               <Button to="home"
                 primaryColor={true}
-                darkText={true}> {aboutSectionText.buttonText} </Button>
+                darkText={true}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+                > {aboutSectionText.buttonText}
+                
+                 </Button>
             </BtnWrap>
           </TextWrapper>
         </LeftCol>
