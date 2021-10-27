@@ -1,9 +1,10 @@
 import React from 'react'
+import { smoothScrollSet } from '../../constants/smoothScrollSet'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, 
 SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements'
 
 const Sidebar = ({ isOpen, toggle }) => {
-    
+
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -12,16 +13,20 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
 
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>
+                    <SidebarLink to="about" onClick={toggle}
+                    {... smoothScrollSet}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>
+                    <SidebarLink to="discover" onClick={toggle}
+                    {... smoothScrollSet}>
                         Discover
                     </SidebarLink>
-                    <SidebarLink to="services" onClick={toggle}>
+                    <SidebarLink to="services" onClick={toggle}
+                    {... smoothScrollSet}>
                         Services
                     </SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>
+                    <SidebarLink to="signup" onClick={toggle}
+                    {... smoothScrollSet}>
                         Sign Up
                     </SidebarLink>
                 </SidebarMenu>

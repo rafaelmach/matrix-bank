@@ -5,10 +5,11 @@ import {
 import { Button } from "../ButtonElement"
 import aboutImage from "../../images/svg-13.svg"
 import { aboutSectionText } from '../../assets/Database'
+import { smoothScrollSet } from '../../constants/smoothScrollSet'
 
 const AboutSection = () => {
   return (
-    <GeneralContainer>
+    <GeneralContainer id="about">
       <AboutContainer>
         
         <LeftCol>
@@ -19,7 +20,11 @@ const AboutSection = () => {
             <BtnWrap>
               <Button to="home"
                 primaryColor={true}
-                darkText={true}> {aboutSectionText.buttonText} </Button>
+                darkText={true}
+                {... smoothScrollSet}
+                > {aboutSectionText.buttonText}
+                
+                 </Button>
             </BtnWrap>
           </TextWrapper>
         </LeftCol>

@@ -14,11 +14,12 @@ import {
 import { Button } from "../ButtonElement";
 import signUpImage from "../../images/svg-22.svg";
 import { signUpSectionText } from "../../assets/Database";
+import { smoothScrollSet } from "../../constants/smoothScrollSet";
 
 
 const SignUpSection = () => {
   return (
-    <GeneralContainer>
+    <GeneralContainer id="signup">
       <MainContainer>
 
         <LeftCol>
@@ -27,7 +28,8 @@ const SignUpSection = () => {
             <Title> {signUpSectionText.title} </Title>
             <Subtitle> {signUpSectionText.subtitle} </Subtitle>
             <BtnWrap>
-              <Button to="home" primaryColor={false} darkText={false}>
+              <Button to="home" primaryColor={false} darkText={false}
+              {... smoothScrollSet}>
                 {signUpSectionText.buttonText}
               </Button>
             </BtnWrap>
