@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { smoothScrollSet } from "../../constants/smoothScrollSet"
 import {
     FooterContainer, FooterWrap, FooterLinksContainer,
     FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, 
@@ -16,21 +17,21 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle> Matrix Bank </FooterLinkTitle>
 
-                            <FooterLink to="/signin"> Sobre Nós </FooterLink>
-                            <FooterLink to="/signin"> Recomendações </FooterLink>
-                            <FooterLink to="/signin"> Carreiras </FooterLink>
-                            <FooterLink to="/signin"> Investidores </FooterLink>
-                            <FooterLink to="/signin"> Termos de Serviço </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Sobre Nós </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Recomendações </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Carreiras </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Investidores </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Termos de Serviço </FooterLink>
 
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle> Fale com a gente </FooterLinkTitle>
 
-                            <FooterLink to="/"> Contato </FooterLink>
-                            <FooterLink to="/"> Suporte </FooterLink>
-                            <FooterLink to="/"> Patrocínios </FooterLink>
-                            <FooterLink to="/"> Ouvidoria </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Contato </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Suporte </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Patrocínios </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Ouvidoria </FooterLink>
 
                         </FooterLinkItems>
 
@@ -41,21 +42,21 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle> Vídeos </FooterLinkTitle>
 
-                            <FooterLink to="/"> Na Mídia </FooterLink>
-                            <FooterLink to="/"> Envie um vídeo </FooterLink>
-                            <FooterLink to="/"> Agências </FooterLink>
-                            <FooterLink to="/"> Influencers </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Na Mídia </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Envie um vídeo </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Agências </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Influencers </FooterLink>
 
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle> Produtos </FooterLinkTitle>
 
-                            <FooterLink to="/"> Conta digital </FooterLink>
-                            <FooterLink to="/"> Cartão de crédito </FooterLink>
-                            <FooterLink to="/"> Matrix UltraGreen </FooterLink>
-                            <FooterLink to="/"> Empréstimo </FooterLink>
-                            <FooterLink to="/"> Matrix Vida </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Conta digital </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Cartão de crédito </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Matrix UltraGreen </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Empréstimo </FooterLink>
+                            <FooterLink to="home" {... smoothScrollSet}> Matrix Vida </FooterLink>
 
                         </FooterLinkItems>
 
@@ -63,7 +64,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/">
+                        <SocialLogo to="home" {... smoothScrollSet}>
                             Matrix Bank
                         </SocialLogo>
                         <WebsiteRights> Matrix Bank © {new Date().getFullYear()} - Todos os direitos reservados.</WebsiteRights>
