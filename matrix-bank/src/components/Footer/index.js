@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { toggleHome } from "../../constants/scrollToTop"
 import { smoothScrollSet } from "../../constants/smoothScrollSet"
 import {
     FooterContainer, FooterWrap, FooterLinksContainer,
@@ -64,7 +65,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="home" {... smoothScrollSet}>
+                        <SocialLogo onClick={toggleHome}>
                             Matrix Bank
                         </SocialLogo>
                         <WebsiteRights> Matrix Bank © {new Date().getFullYear()} - Todos os direitos reservados.</WebsiteRights>
