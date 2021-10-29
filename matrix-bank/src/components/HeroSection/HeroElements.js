@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 10px;
     height: 100vh;
     position: relative;
     z-index: 1;
@@ -53,7 +53,7 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 8px 24px;
+    padding: 8px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,19 +76,48 @@ export const HeroH1 = styled.h1`
 `
 
 export const HeroP = styled.p`
-    margin-top: 24px;
+    margin-top: 0px;
     color: #fff;
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
-    max-width: 600px;
+    max-width: 768px;
+    padding: 10px;
+    font-weight: 600;
 
     @media screen and (max-width: 768px) {
-        font-size: 23px;
+        font-size: 40px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 18px;
+        font-size: 25px;
     }
+
+    .ityped-cursor {
+                    font-size: 2.2rem;
+                    opacity: 1;
+                    -webkit-animation: blink 0.5s infinite;
+                    -moz-animation: blink 0.5s infinite;
+                    animation: blink 0.5s infinite;
+                    animation-direction: alternate;
+                }
+                 
+                @keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
+                 
+                @-webkit-keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
+                 
+                @-moz-keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
 `
 
 export const HeroBtnWrapper = styled.div`
