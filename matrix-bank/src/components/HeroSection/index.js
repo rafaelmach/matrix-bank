@@ -7,6 +7,7 @@ import {
 import { Button } from "../ButtonElement"
 import { smoothScrollSet } from '../../constants/smoothScrollSet'
 import { init } from 'ityped'
+import { motion, AnimatePresence } from "framer-motion"
 
 const HeroSection = () => {
     const [hoverIcon, setHoverIcon] = useState(false)
@@ -26,13 +27,29 @@ const HeroSection = () => {
         })
     }, [])
 
-
     return (
-        <HeroContainer id="home">
+        <AnimatePresence>
+        <HeroContainer id="home"
+        as={motion.div} initial={{ opacity: 0 }}
+        animate={{
+            opacity: 1, transition: {
+                delay: 0.1, duration: 0.3
+            }
+        }}
+        exit={{
+            opacity: 0
+        }}>
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             </HeroBg>
-            <HeroContent>
+            <HeroContent
+            as={motion.div} initial={{ y: -200, opacity: 0 }}
+            animate={{
+                y: 0, opacity: 1, transition: {
+                    delay: 0.3, duration: 1
+                }
+            }}
+            >
                 <HeroH1>Bem vindo ao futuro!</HeroH1>
                 <HeroP><span ref={textRef}></span></HeroP>
                 <HeroBtnWrapper>
@@ -46,6 +63,7 @@ const HeroSection = () => {
             </HeroContent>
 
         </HeroContainer>
+        </AnimatePresence>
     )
 }
 
