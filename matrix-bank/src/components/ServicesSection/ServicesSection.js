@@ -39,7 +39,7 @@ const ServicesSection = () => {
     return (
         <ServicesContainer id="services">
           <Modal showModal={showModal} setShowModal={setShowModal} />
-            <ServicesH1>Nossos Serviços</ServicesH1>
+            <ServicesH1>Serviços Digitais</ServicesH1>
             <ServicesWrapper>
 
                 {cards}
