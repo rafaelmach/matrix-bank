@@ -9,9 +9,7 @@ const ServicesSection = () => {
 
     const onClickCard = (id) => {
       if(id === "2"){
-        console.log("Cliquei no Card de Cartão de Crédito!")
         setShowModal(!showModal)
-        console.log("CLICADO !!!", showModal)
       } 
     }
     
