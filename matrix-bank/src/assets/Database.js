@@ -1,7 +1,3 @@
-import imageCard1 from "../images/svg-17.svg"
-import imageCard2 from "../images/svg-12.svg"
-import imageCard3 from "../images/svg-7.svg"
-
 export const aboutSectionText = {
     topline: "BANCO PREMIUM",
     title: "Transações ilimitadas e tarifa zero",
@@ -26,19 +22,19 @@ export const signUpSectionText = {
 export const dataServiceCards = [
     {
       id: "1",
-      image: imageCard1,
+      image: "https://user-images.githubusercontent.com/85365177/139558464-9a2c1284-b187-458e-b3e8-ac254abe7fa3.png",
       title: "Investimentos",
       desc: "As melhores opções de investimentos na palma da sua mão.",
     },
     {
         id: "2",
-        image: imageCard2,
+        image: "https://user-images.githubusercontent.com/85365177/139558728-61265c14-96d5-41c9-a67c-4d16c9729a31.png",
         title: "Cartão de Crédito",
         desc: "Peça já seu Verdinho com anuidade zero e 5% de cash back.",
     },
     {
         id: "3",
-      image: imageCard3,
+      image: "https://user-images.githubusercontent.com/85365177/139558567-ac058e79-baea-4be2-bbda-502eddfb8478.png",
       title: "Redução de Despesas",
       desc: "Nós te ajudamos a reduzir suas despesas e aumentar suas receitas.",
     }

@@ -21,7 +21,7 @@ export const CardContainer = styled.div`
 
 export const Image = styled.img`
     height: 160px;
-    width: 160px;
+    width: 100%;
     margin-bottom: 10px;
 `
 

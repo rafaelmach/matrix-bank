@@ -1,8 +1,10 @@
+import axios from "axios";
 import ServicesCard from "../ServicesCard/ServicesCard"
 import { ServicesContainer, ServicesH1, ServicesWrapper } from "./ServicesSecElements"
 import { dataServiceCards } from "../../assets/Database"
 import { useState } from "react"
 import Modal from "../Modal/Modal"
+
 
 const ServicesSection = () => {
   const [showModal, setShowModal] = useState(false)
