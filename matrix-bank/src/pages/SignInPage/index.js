@@ -27,7 +27,7 @@ const SignInPage = () => {
                                 <FormH1> Faça login na sua conta </FormH1>
                                 <FormLabel htmlFor="for">Email</FormLabel>
                                 <FormInput type="email" required />
-                                <FormLabel htmlFor="for">Password</FormLabel>
+                                <FormLabel htmlFor="for">Senha</FormLabel>
                                 <FormInput type="password" required />
                                 <FormButton type="submit"> Entrar </FormButton>
                                 <Text> Esqueci minha senha </Text>
