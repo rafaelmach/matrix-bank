@@ -59,23 +59,23 @@ const Navbar = ({ toggle }) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks to="about"
-                            {... smoothScrollSet}> About </NavLinks>
+                            {... smoothScrollSet}> Sobre </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="discover"
-                            {... smoothScrollSet}> Discover </NavLinks>
+                            {... smoothScrollSet}> Descubra </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="services"
-                            {... smoothScrollSet}> Services </NavLinks>
+                            {... smoothScrollSet}> Serviços </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="signup"
-                            {... smoothScrollSet}> Sign Up </NavLinks>
+                            {... smoothScrollSet}> Abrir conta </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                        <NavBtnLink to="/signin">Entrar</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
