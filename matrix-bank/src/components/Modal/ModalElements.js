@@ -44,6 +44,14 @@ export const ModalWrapper = styled.div`
         left: 50%;
     }
 
+    @media screen and (max-width: 768px) {
+        padding: 5em 2em;
+        height: 80%;
+        width: 86%;
+        top: 53%;
+        left: 50%;
+    }
+
     @media screen and (max-width: 480px) {
         padding: 5em 2em;
         height: 80%;
@@ -60,16 +68,20 @@ export const ModalImg = styled.img`
     background: #000;
 
     @media screen and (max-width: 1000px) {
-        border-radius: 10px;
         width: 100%;
         max-width: 400px;
         padding: 1em;
         margin: 1.5em;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 815px) {
         width: 100%;
-        height: 40%;
+        max-width: 500px;
+        height: 50%;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 50%;
     }
 `
 
