@@ -15,24 +15,24 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarMenu>
                     <SidebarLink to="about" onClick={toggle}
                     {... smoothScrollSet}>
-                        About
+                        Sobre
                     </SidebarLink>
                     <SidebarLink to="discover" onClick={toggle}
                     {... smoothScrollSet}>
-                        Discover
+                        Descubra
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}
                     {... smoothScrollSet}>
-                        Services
+                        Serviços
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}
                     {... smoothScrollSet}>
-                        Sign Up
+                        Abrir conta
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                   <SidebarRoute to="/signin">
-                     Sign In 
+                     Entrar 
                   </SidebarRoute>
 
                 </SideBtnWrap>

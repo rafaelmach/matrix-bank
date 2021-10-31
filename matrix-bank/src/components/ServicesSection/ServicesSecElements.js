@@ -11,12 +11,13 @@ export const ServicesContainer = styled.div`
     z-index: 1;
 
     @media screen and (max-width: 1000px) {
-        height: 1100px;
-    }
-
-    @media screen and (max-width: 480px) {
         height: 1300px;
     }
+
+    @media screen and (max-width: 768px) {
+        height: 1200px;
+    }
+
 `
 
 export const ServicesWrapper = styled.div`
@@ -32,7 +33,7 @@ export const ServicesWrapper = styled.div`
         grid-template-columns: 1fr 1fr;
     }
                
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 815px) {
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
