@@ -21,20 +21,14 @@ export const CardContainer = styled.div`
 
 export const Image = styled.img`
     height: 160px;
-    width: auto;
+    width: 100%;
     margin-bottom: 10px;
 
-    /* @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1000px) {
         width: auto;
     }
 
-    @media screen and (max-width: 768px) {
-        width: auto;
-    }
-
-    @media screen and (max-width: 468px) {
-        width: auto;
-    } */
+ 
 `
 
 export const Title = styled.h2`
