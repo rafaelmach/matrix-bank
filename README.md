@@ -6,7 +6,7 @@
 Matrix Bank
 </h1>
 
-<p align="center">O repositório de um banco digital futurista - Projeto Front-end</p>
+<p align="center">O repositório de um banco digital futurista - Projeto Frontend</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
