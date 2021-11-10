@@ -15,8 +15,8 @@ Matrix Bank
 </p>
 
 <div>
-  <img src="https://user-images.githubusercontent.com/85365177/141128034-554a17bb-d5a3-41ff-ab42-bab1f423fec8.gif" alt="demo-mobile" height="425">
-  <img src="https://user-images.githubusercontent.com/85365177/141133179-770c9afc-ee3b-4a7e-8302-660855f2e452.gif" alt="demo-web" height="325" width="570">
+  <img src="https://user-images.githubusercontent.com/85365177/141128034-554a17bb-d5a3-41ff-ab42-bab1f423fec8.gif" alt="demo-mobile" height="425" align="center">
+  <img src="https://user-images.githubusercontent.com/85365177/141133179-770c9afc-ee3b-4a7e-8302-660855f2e452.gif" alt="demo-web" height="325" width="570" align="center">
   
   
 </div>
