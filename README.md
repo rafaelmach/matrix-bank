@@ -1,12 +1,12 @@
 <h1 align="center">
 <br>
-  <img src="https://svgshare.com/i/G_S.svg" alt="TinDev" width="120">
+  <img src="https://user-images.githubusercontent.com/85365177/141143999-4447a845-bc29-4ec0-a2f6-3de32123b2ba.PNG" alt="Matrix Bank Logo" width="420">
 <br>
 <br>
-Tindev
+Matrix Bank
 </h1>
 
-<p align="center">The monorepo of a clone of tinder mobile and web app, built in a Omnistack Week</p>
+<p align="center">O repositório de um banco digital futurista - Projeto Front-end</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -15,15 +15,16 @@ Tindev
 </p>
 
 <div>
-  <img src="https://i.ibb.co/q9sYJ7k/MATRIX-BANK-PC.gif" alt="demo-web" height="425">
-  <img src="https://i.ibb.co/gMjMZN3/MATRIX-BANK-MOBILE.gif" alt="demo-mobile" height="425">
+  <img src="https://user-images.githubusercontent.com/85365177/141133179-770c9afc-ee3b-4a7e-8302-660855f2e452.gif" alt="demo-web" height="425" width="670">
+  <img src="https://user-images.githubusercontent.com/85365177/141128034-554a17bb-d5a3-41ff-ab42-bab1f423fec8.gif" alt="demo-mobile" height="425">
+  
 </div>
 
 <hr />
 
 ## Features
 
-This app features all the latest tools and practices in mobile development!
+Este aplicativo apresenta todas as ferramentas e práticas mais recentes em desenvolvimento web!
 
 - ⚛️ **React Js** — A JavaScript library for building user interfaces
 - ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
@@ -61,3 +62,4 @@ the `run-android` command.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+
