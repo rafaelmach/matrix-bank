@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://user-images.githubusercontent.com/85365177/141143999-4447a845-bc29-4ec0-a2f6-3de32123b2ba.PNG" alt="Matrix Bank Logo" width="420">
+  <img src="https://user-images.githubusercontent.com/85365177/141165026-22a982f5-9de5-4032-bdf8-76d3f544c644.png" alt="Matrix Bank Logo" width="420">
 <br>
 <br>
 Matrix Bank
