@@ -50,32 +50,33 @@ Este aplicativo apresenta todas as ferramentas e práticas mais recentes em dese
 - 🔄 **Loadings** — Loading ao carregar o site pela primeira vez — Implementado com a Lib react-spinners 
 - ⌨ **Outros** — Efeito de digitação automática na Homepage - Implementado com a Lib iTyped 
 
+<br>
 
-## Getting started
+## Como rodar o Projeto no seu PC
 
-1. Clone this repo using `git clone git@github.com:CarlosLevir/tindev.git`
-2. Move yourself to the appropriate directory: `cd tindev`<br />
-3. Run `yarn` to install dependencies<br />
-4. Run `lerna bootstrap` to install the packages dependecies
+No diretório do projeto, faça o seguinte:
 
-### Getting started with the backend server
+1. Eu recomendo clonar este repositório usando o GitHub Desktop - Clique no botão verde Code - Depois clique em Open with Github Desktop
+2. Vá até o diretório apropriado [ onde se encontra o arquivo package.json ]
+3. Execute os comandos que seguem abaixo:
 
-1. Move yourself to the backend folder: `cd backend`
-2. Create a `.env` file and add the MongoDB url connection in MONGO_URL field
-3. Run `yarn dev` to start the server
 
-### Getting started with the frontend app
+##  Instalando as dependências do Projeto
 
-1. Move yourself to the frontend folder: `cd frontend`
-2. Run `yarn start` to start the web application
+### `yarn install` ou `npm install`
 
-### Getting started with the mobile app
+Este comando irá instalar todas as dependências necessárias para a aplicação rodar
+<br>
 
-1. Move yourself to the mobile folder: `cd mobile`
-2. Run `react-native run-ios` (or `run-android` if your prefer) to start the mobile app
+## Executando a aplicação
 
-Note: If you choose to start the mobile app in the android emulator, you will have to start the emulator before using
-the `run-android` command.
+### `yarn start` ou `npm start`
+
+Executa o aplicativo no modo de desenvolvimento.\
+Abre o [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+
+A página será recarregada se você fizer edições.\
+<br>
 
 
 ## License
