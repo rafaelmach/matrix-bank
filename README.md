@@ -49,7 +49,7 @@ Este aplicativo apresenta todas as ferramentas e práticas mais recentes em dese
 - 🖱 **Smooth Scroll** — Ao rolar o site, "scrollar", a transição é feita de forma suave — Implementado com a Lib react-scroll
 - :zap: **Animações** — Efeitos de transição e animação com a Lib Framer Motion
 - 🔄 **Loadings** — Loading ao carregar o site pela primeira vez — Implementado com a Lib react-spinners 
-- ⌨ **Outros** — Efeito de digitação automática na Homepage - Implementado com a Lib iTyped. 
+- ⌨ **Outros** — Efeito de digitação automática na Homepage - Implementado com a Lib iTyped
 
 <br>
 
