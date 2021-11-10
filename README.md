@@ -29,15 +29,27 @@ Matrix Bank
 ## Website
 - Link para o website do projeto:  <a href="http://matrix-bank.surge.sh/" target="_blank">  Dar uma olhada!</a> 👀 💻 
 
-## Features
+## Ferramentas e Tecnologias
 
 Este aplicativo apresenta todas as ferramentas e práticas mais recentes em desenvolvimento web!
 
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
-- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
-- 💹 **Node Js** — A web framework for Node Js
-- 📄 **MongoDB** — A cross-platform and open-source document-oriented database
-- ♻️ **Socket IO** — A library for realtime web applications 
+<div>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+ <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  
+ </div>
+ <br>
+
+- ⚛️ **Axios** — As informações dos cards de serviços estão em um arquivo JSON — Simulei uma requisição a uma API usando Axios e mostrei as informações nos cards
+- 🆔 **Modal** — Criei um Modal ao clicar no card de cartão de crédito usando as melhores práticas — com createPortal
+- 🖱 **Smooth Scroll** — Ao rolar o site para baixo a transição é feita de forma suave — Implementado com a Lib react-scroll
+- :zap: **Animações** — Efeitos de transição e animação com a Lib Framer Motion
+- 🔄 **Loadings** — Loading ao carregar o site pela primeira vez — Implementado com a Lib react-spinners 
+- ⌨ **Outros** — Efeito de digitação automática na Homepage - Implementado com a Lib iTyped 
+
 
 ## Getting started
 
