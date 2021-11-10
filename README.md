@@ -14,14 +14,20 @@ Matrix Bank
   </a>
 </p>
 
-<div>
-  <img src="https://user-images.githubusercontent.com/85365177/141128034-554a17bb-d5a3-41ff-ab42-bab1f423fec8.gif" alt="demo-mobile" height="425" align="center">
-  <img src="https://user-images.githubusercontent.com/85365177/141133179-770c9afc-ee3b-4a7e-8302-660855f2e452.gif" alt="demo-web" height="325" width="570" align="center">
-  
-  
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/85365177/141128034-554a17bb-d5a3-41ff-ab42-bab1f423fec8.gif" alt="demo-mobile" height="425">
 </div>
+<br>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/85365177/141133179-770c9afc-ee3b-4a7e-8302-660855f2e452.gif" alt="demo-web" height="425" width="770">
+</div>
+  
+
 
 <hr />
+
+## Website
+- Link para o website do projeto: 
 
 ## Features
 
