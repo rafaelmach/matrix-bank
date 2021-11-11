@@ -55,8 +55,6 @@ Este aplicativo apresenta todas as ferramentas e práticas mais recentes em dese
 
 ## Como rodar o Projeto no seu PC
 
-No diretório do projeto, faça o seguinte:
-
 1. Eu recomendo clonar este repositório usando o GitHub Desktop - Clique no botão verde Code - Depois clique em Open with Github Desktop
 2. Vá até o diretório apropriado [ onde se encontra o arquivo package.json ]
 3. Execute os comandos que seguem abaixo:
